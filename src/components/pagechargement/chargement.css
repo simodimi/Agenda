@@ -1,0 +1,41 @@
+.header-chargement{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.imagecontainer{ 
+    position: relative;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+.imagecontainer img{
+    width: 100%;
+    height:100%;
+ animation:dimitri 4s ease infinite;
+}
+@keyframes dimitri{
+0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+}
+.imagesubcontainer{
+    position: absolute;
+    top: 53%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    border-radius: 15px;
+}
+.imagesubcontainer img{
+ width: 100%;
+ height: 100%;
+ border-radius: 15px;
+ animation:dimi 4s ease infinite;
+}
+@keyframes dimi{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
+    }

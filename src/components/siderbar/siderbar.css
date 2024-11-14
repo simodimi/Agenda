@@ -1,0 +1,129 @@
+.headersiderbar{
+    width: 260px;
+    padding: 10px 20px;
+    height:calc(100% - 20px);
+    background-color: #E7EDF2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.siderbarup_image{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.imagesiderbar{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid white; 
+    cursor: pointer;   
+}
+.imagesiderbar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.imagesiderbar_text {
+    margin: 0 10px;
+    font-size: 12px;
+    line-height: 5px;
+    cursor: default;
+}
+.imagesiderbar_text p:nth-child(1) {
+   font-weight: bold;
+   font-size: 14px;
+}
+.input{
+    width:calc(100%-20px);
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-bottom: 1px solid black;
+}
+.input input{
+    border: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+.linkmenu,.linkmenus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    height: 40px;
+}
+.linkmenu:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.linkmenulefts:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.linkmenuleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.linkmenulefts{
+    display: flex;
+    align-items: center;
+    width: calc(80% -40px); 
+    padding: 0 20px; 
+}
+.linkmenurights{
+    width: 10%; 
+}
+.linkmenuright{
+    width: 80%;
+   height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.siderbarup .linkmenu{
+  margin-top: 15px;
+}
+.linkmenubutton:hover{
+    scale: 1.5;
+    color: blue;
+}
+#spanse{
+    
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siderbarup{
+    border-bottom: 2px solid gray;
+}
+.active{
+    background-color:aqua;
+    border-radius: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+

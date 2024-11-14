@@ -1,0 +1,258 @@
+.journeytitle{
+    display: flex;
+   /*justify-content: space-between;
+    width: 100%;*/
+    flex-grow: 1;
+    height: 100vh;
+}
+/*.menuleft{
+    width: 300px;
+    height: 100%;
+}*/
+.journeyheader{
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.journey-left{
+ width: 100%;
+ height: 100vh;  
+ background: url('../../asset/mountains.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ position: relative;
+}
+
+.journey_selection{
+    width: calc(100% - 200px);
+    padding:20px 100px;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.journey_top{
+    width: 100%;
+}
+.journey_top_up{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.journey_top_left{
+    line-height: 5px;
+}
+.journey_top_left p:nth-child(1){
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.journey_top_left p:nth-child(2){
+    color: white;
+    font-size: 14px;
+}
+.journey_top_right{
+    display: flex;
+    gap: 15px;
+}
+.journey_top_down{
+    width: calc(100%-40px);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    background-color:gainsboro;
+    margin-bottom: 10px;
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    height: 45px;
+    width: 100%;
+    overflow-y: hidden;
+}
+.noteleft{
+    display: flex;
+    height: 60px;
+    line-height: 15px;
+}
+.notetext p{
+    margin: 0;   
+}
+.notetext p:nth-child(1)::first-letter{
+    text-transform:uppercase ;
+}
+.notetext p:nth-child(1){
+   color: black ;
+   cursor: default;
+}
+.soustache p:nth-child(1)::first-letter{
+    text-transform:lowercase ;
+    cursor: default;
+}
+.soustache p:nth-child(1){
+    color: gray ;
+}
+.soustache{
+    display: flex;
+    align-items: baseline;
+    font-size: 12px;
+    margin-top: 10px;
+    gap: 20px;
+}
+.noteright{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.message_journey{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+.message_journey p:nth-child(2){
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+.journey_down p:nth-child(1){
+    flex-grow: 1;
+    height: 40px;
+   display: flex;
+   align-items: center;
+   background-color: grey;
+   border-radius: 5px;
+   padding: 0 20px;
+  cursor: pointer;
+}
+#input{
+    flex-grow: 1;
+    height: 40px;
+   display: flex;
+   align-items: center;
+   background-color: gainsboro;
+   border-radius: 5px;
+   padding: 0 20px;
+  cursor: pointer; 
+  overflow: hidden;  
+}
+.journey_down p:nth-child(2){
+    flex-grow: 1;
+    height: 40px;
+   display: flex;
+   align-items: center;
+   background-color: grey;
+   border-radius: 5px;
+   padding: 0 20px;
+   cursor: default;
+   background-color:gainsboro;
+   border: 1px solid gainsboro;
+   
+}
+.journey_down .down input{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background-color:gainsboro;
+    color: black;
+    outline: none;
+ }
+/*.journey_right{
+    width: calc(30% - 40px);
+    padding:10px 20px;
+    height: calc(100vh - 20px);
+    cursor: default;
+}*/
+.journey_right p:nth-child(1){
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-weight: bold;
+  font-size: 18px;
+}
+.select_theme{
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    border: 1px solid antiquewhite;
+    border-radius: 10PX;
+    background-color: antiquewhite;
+    width: 200px;  
+   
+}
+.themeselect{
+
+    width: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: repeat(4,40px);
+    gap: 10px 6px;
+    padding: 10px 10px; 
+    height: 155px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.addpicture{
+    background-color: aqua; 
+    font-size: 18px;
+    padding: 11px;
+    border: 2px solid white;
+}
+.addpicture:hover{
+    cursor: pointer;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.themeselect::-webkit-scrollbar{
+    width: 5px;  
+}
+.themeselect::-webkit-scrollbar-thumb{
+    background-color: red;
+    cursor: pointer;
+}
+
+.themeselect::-webkit-scrollbar-track{
+   background-color: black;
+   margin: 10px 0;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.selection{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.selection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttonjourney{
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.pink-back{
+    background-color: blue;
+    color: white;
+}
+.red-back{
+    background-color: gainsboro;
+    color: white;
+}

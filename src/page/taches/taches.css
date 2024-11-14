@@ -1,0 +1,36 @@
+.headertache{
+    flex-grow: 1;
+    height: 100vh; 
+    overflow-y: hidden; 
+} 
+  #title-time{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: transparent;
+ -webkit-text-stroke: 2px blue;
+  }
+  .timestype{ 
+    margin: 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+  }
+#time-button{
+    width: 40%;
+    background-color: blue;
+    padding: 40px 80px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+ 
+}
+#time-button:hover{
+    cursor: pointer;
+}
+#time-button:active{
+    background-color: green;
+   
+}

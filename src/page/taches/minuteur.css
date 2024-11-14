@@ -1,0 +1,45 @@
+.selection-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header-minuteur{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.section-time{
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 5%;
+}
+.clock{
+    border: 1px solid gray;
+    height: 400px;
+}
+#spans{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+}
+#button-selection{
+    background-color:gray;
+    cursor: pointer;
+    color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+#timecount{
+    margin: auto;
+    border: 8px solid blue;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
